@@ -2,7 +2,7 @@
 # iotSDR Getting Started Guide
 ------------------------------
 
-This small guide will help you setup your board to get started with the jupyter notebook
+As you got your iotSDR, this small guide will help you setup your board to get started with the jupyter notebook
 
 ## Pre-requisites
 -----------------
@@ -15,12 +15,12 @@ This small guide will help you setup your board to get started with the jupyter 
 ## MicroSD Card Setup
 ---------------------
 
-To flash iotSDR Micro-SD card follow the below steps:
+To flash iotSDR Micro-SD card folow below steps:
 
   1. Download the appropriate iotSDR image for your board
-  2. Click here for [iotSDR7010](https://bit.ly/2PEP3Y4) or [iotSDR7020](https://bit.ly/3cxjA33)
-  4. Use Etcher Utility [Etcher](https://www.balena.io/etcher/)
-  5. following the Etcher instructions Write the image to a blank Micro SD card (16GB recommended)
+  2. [iotSDR7010](https://bit.ly/2PEP3Y4) [iotSDR7020](https://bit.ly/3cxjA33)
+  4. Use Etcher Utility [Ether](https://www.balena.io/etcher/)
+  5. following the Ether instructions Write the image to a blank Micro SD card (16GB recommended)
    
 if you are facing issues you can find the detailed instructions [here](https://github.com/embedinn/iotSDR/blob/master/iotSDR_uSD_Card.md)
 
@@ -47,7 +47,7 @@ Set the ** Boot** jumper to the SD position. (This sets the board to boot Linux 
 3. Follow the below procedure to configure ethernet connection between Host PC and iotSDR before running Jupyter notebook on browser
 
 
-        1. Assign your computer a static IP address from the pool of 192.168.2.xx (except .99 and .1)
+        1. Assign your computer a static IP address from the pool of           192.168.2.xx (except .99 and .1)
         2. Connect the board to your computer’s Ethernet port 
         3. ping to 192.168.2.99 to confirm that you are connected
         4. Now open chrome browser and write http://192.168.2.99:9090/lab in the search bar
@@ -60,9 +60,4 @@ Note: By default The board currently have a fixed IP (192.168.2.99) address mode
 ## Running Application on Jupyter Notebook
 ------------------------------------------
 After the password tab window, two folder of the notebooks on the left of webpage will appear and the files can be accessed and user can run the demo projects.
-
 ![image](./images/demo.png)
-
-## Contact Us
--------------
-if you are facing any issues, feel free to contact us at info@embedinn.com
